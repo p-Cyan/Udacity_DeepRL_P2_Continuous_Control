@@ -1,6 +1,6 @@
 ## Udacity Deep Reinforcement Nanodegree
 </hr>
-This repository contains my project submission for project 1 of Udacity's [Deep RL Nanodegree program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
+This repository contains my project submission for project 2 of Udacity's [Deep RL Nanodegree program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
 
 ## Project 2: Navigation
 

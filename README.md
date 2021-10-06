@@ -11,10 +11,11 @@ This is a [Unity ML Agent](https://github.com/Unity-Technologies/ml-agents/blob/
 </br>
 ![reacher](https://github.com/p-Cyan/Udacity_DeepRL_P2_Continuous_Control/blob/main/images/reacherp_ddpg_agent_small.gif)</br>
 </br>
-The agent is trained in the Second Version of the environment. In this version, there are 20 identical copies of the agent. For each double-jointed arm, a reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of our agent is to maintain its position at the target location for as many time steps as possible.
-
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.</br>
 
+The agent is trained in the Second Version of the environment. In this version, there are 20 identical copies of the agent. For each double-jointed arm, a reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of our agent is to maintain its position at the target location for as many time steps as possible.
+
+### Termination Condition
 The environment is considered solved if a reward of +30 is obtain for 100 consecutive episodes.
 
 The method to use is an actor-critic algorithm, the Deep Deterministic Policy Gradients (DDPG) algorithm.

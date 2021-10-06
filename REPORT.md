@@ -27,7 +27,7 @@ Both of the actor and the critic are composed of two networks. On local network 
 During the training, the actor is updated by applying the chain rule to the expected return from the start distribution. The critic is updated as in Q-learning, ie it compares the expected return of the current state to the sum of the reward of the choosen action + the expected return of the next state.
 
 ### Code implementation
-The code used here is derived from the ddpg-pendulum project made by Udacity. Since the model has to perform using multiple agents, it has been slightly adjusted for being used with the reacher environment. ( editted the code such that all agents simultaneously learn and update, and added noise among agents to ensure learning occurs)
+The code for ddpg agent used here is derived from the ddpg-pendulum project made by Udacity. Since the model has to perform using multiple agents, it has been slightly adjusted for being used with the reacher environment. ( editted the code such that all agents simultaneously learn and update, and added noise among agents to ensure learning occurs)
 
 The code consists of:
 - model.py : This python file contains the model framework defined using pytorch.

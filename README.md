@@ -2,7 +2,7 @@
 </hr>
 This repository contains my project submission for project 2 of Udacity's [Deep RL Nanodegree program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
 
-## Project 2: Navigation
+## Project 2: Continuous Control
 
 </hr>
 
